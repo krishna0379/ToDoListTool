@@ -1,0 +1,22 @@
+.header{
+  position:sticky;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  padding: 10px;
+  /* margin: 20px; */
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  background-color: rgb(48, 242, 219);
+  color: rgb(29, 197, 54);
+  font-weight: 400;
+}
+
+.nav-link{
+  color: black;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}

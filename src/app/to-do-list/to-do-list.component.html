@@ -1,0 +1,27 @@
+
+<table class="table">
+  <thead>
+
+    <tr>
+      <th>TaskId</th>
+      <th>Taskname</th>
+      <th>TaskDescription</th>
+      <th>StartDate</th>
+      <th>DueDate</th>
+      <th>Action</th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of list">
+      <td>{{row.id}}</td>
+      <td>{{row.tasks}}</td>
+      <td>{{row.description}}</td>
+      <td>{{row.startDate}}</td>
+      <td>{{row.dueDate}}</td>
+      <button class="btn btn-success"  type="submit" (click)="updatingTask(row.id)" >Update</button>
+      <button class="btn btn-danger" type="submit" (click)="deleteTasks(row)">delete</button>
+    </tr>
+  </tbody>
+</table>
+
